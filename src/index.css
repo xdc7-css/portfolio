@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root variables for subtle theming */
+:root {
+  --glass-bg: rgba(255, 255, 255, 0.06);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --card-radius: 16px;
+}
+
+/* Global */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-gradient-to-b from-purple-800 via-pink-700 to-red-600 text-white;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+section {
+  @apply bg-transparent;
+}
+
+/* Glass card utility */
+.glass-card {
+  @apply bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl shadow-lg;
+}
+
+/* Gradient text helper */
+.text-accent {
+  @apply bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent;
+}
+
+/* Small responsive tweaks (optional if needed) */
+@media (max-width: 640px) {
+  .text-5xl { font-size: 2rem; }
+}
