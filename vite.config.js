@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/portfoilo/'  // <--- هذا مهم جداً
+  base: '/portfolio/',   // 👈 لازم يطابق اسم الريبو الجديد
 })
