@@ -6,18 +6,25 @@ const projects = [
     title: "Random Music website",
     desc: "generate random songs and listen to them on spotify or youtube",
     url: "https://xdc7-css.github.io/random-songs/",
-    img: "https://dvna932ue33yp.cloudfront.net/blog-migration/hubfs/474541/must-see-festivals-1.jpg", // صورة مؤقتة
+    img: "https://dvna932ue33yp.cloudfront.net/blog-migration/hubfs/474541/must-see-festivals-1.jpg",
   },
   {
     title: "Perfume Store",
     desc: "E-commerce UI",
     url: "https://xdc7-css.github.io/cactus-perfume-store/",
-    img: "https://cdn.riah.ae/storage/upload/images/2025/01/20/678dfe4020362.jpg",  },
+    img: "https://cdn.riah.ae/storage/upload/images/2025/01/20/678dfe4020362.jpg",
+  },
   {
-    title: "movies ranking",
+    title: "Movies Ranking",
     desc: "my top 3 movies from each genre",
     url: "https://xdc7-css.github.io/my-top3-movies/",
     img: "https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQcrxeqIIcFKB302jZz6RRwAutv_Ics5OvfmaIlOiv4l4NSnrJFVQjakXjRLIZlTuulAPhfzX2NMZD0EJIiUyl8VnFiYKtMlRnhLiqt6tnwSWJzxe4REcuoQgRME4sVfAb7mVBkGpgZkTYEPFERl5WPVBxxA.jpg?r=f2e",
+  },
+  {
+    title: "CAF CAFE",
+    desc: "Premium coffee shop brand website",
+    url: "https://xdc7-css.github.io/CAF-CAFE/",
+    img: "/caf_cafe.png", // local image from public/
   },
 ];
 

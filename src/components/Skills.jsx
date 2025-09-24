@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const skills = [
+
+  const skills = [
   { name: "React", icon: "/icons/react.svg", progress: 85 },
   { name: "JavaScript", icon: "/icons/brand-javascript.svg", progress: 75 },
   { name: "Tailwind", icon: "/icons/tailwind-css.svg", progress: 90 },

@@ -72,11 +72,12 @@ export default function Hero() {
 
         <div className="p-6">
           <div className="glass-card p-6 flex flex-col items-center justify-center">
-            <img
-              src="/avatar.png"
-              alt="avatar"
-              className="w-40 h-70 rounded-full border-4 border-white/6 object-contain"
-            />
+           <img
+  src="/avatar.png"
+  alt="avatar"
+  className="w-40 h-70 rounded-full border-4 border-white/6 object-contain"
+/>
+
             <h3 className="mt-4 text-xl font-semibold">Hussein Ali</h3>
             <p className="text-gray-300 mt-2 text-center">
               Judges a book by its cover...
